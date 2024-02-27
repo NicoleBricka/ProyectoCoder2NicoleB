@@ -33,7 +33,7 @@ header nav ul li {
 body {
     text-align: center;
     background-color: black;
-background-image:url("../fotos/backkground.png") ;
+background-image:url("../fotos/fondo2.jpg") ;
 }
 
 
@@ -41,7 +41,6 @@ background-image:url("../fotos/backkground.png") ;
 /*Main*/
 .colorback {
     background-color:#dc3545;
-   
     
 }
 
@@ -49,6 +48,7 @@ background-image:url("../fotos/backkground.png") ;
 background-size:cover;
 
 }
+
 
 
 img {
@@ -141,14 +141,21 @@ a:hover {
 
 /*Textos y parrafos*/
 p{
-    background-color:rgb(139, 93, 94);
+    
+    background-color:rgba(244, 189, 189, 0.699) ;
+    
     }
 
 
 
+span{
+    
+    font-weight:bold ;
+    color: rgb(168, 3, 3);
+    
+}
 
 .black {
     color: black;
 }
-
 
