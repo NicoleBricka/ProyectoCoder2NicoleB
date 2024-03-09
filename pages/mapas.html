@@ -7,110 +7,164 @@
     <title>WikiValo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos/Style.css">
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 
 <body>
     <header>
-        <h1>WikiValo</h1>
-        <nav>
-            <ul>
-                <li><a href="../Index.html">Inicio</a></li>
-                <li><a href="./Agentes.html">Agentes</a></li>
-                <li><a href="./Armas.html">Armas</a></li>
-                <li><a href="./Mapas.html">Mapas</a></li>
-                <li><a href="./Noticias.html">Noticias</a></li>
-            </ul>
-        </nav>
+        <div class="logoarriba">
+            <img src="../fotos/logovalorant.png" alt="logo" class="logoimg">
+            <h1 class="Titulo fw-bold">WikiValo</h1>
+        </div>
+        <div class="fw-bold border-danger ">
+            <nav class="container">
+                <div class="row ">
+                    <ul>
+                        <li class="nav-item link "><button type="button" class="btn btn-danger"><a
+                                    href="../index.html">Inicio</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./agentes.html">Agentes</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./armas.html">Armas</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./mapas.html">Mapas</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./noticias.html">Noticias</a></button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
-        <h2 class="Titulo">MAPAS</h2>
-        <p>Cada partida de VALORANT tiene lugar en un mapa. La mayoría de los mapas cuentan con un área de generación
-            para cada equipo, barreras que limitan las áreas accesibles durante la fase de compra para los modos de
-            juego Plantar/Desactivar y sitios objetivos donde se plantará la spike.</p>
-        <section>
-            <h2 class="habilidad black">Lista de mapas</h2>
-            <article>
-                <h3>Bind</h3>
-                <img src="../fotos/mapa-bind.jpg" alt="Bind valo">
-                <p>Dos sitios. No existe un centro. Debes elegir derecha o izquierda. ¿Cuál será tu elección? Ambos
-                    ofrecen
-                    caminos directos para los atacantes y un par de teletransportadores unidireccionales facilitan el
-                    flanqueo</p>
+        <section class="container">
+        <h2 class="Titulo distancia fw-bold">MAPAS</h2>
+        <h3 class="fw-bold">Descubri la lista de mapas disponibles de Valorant. Te mostramos sus zonas para poder plantar la SPIKE y sus caracteristicas para que rindas al maximo en ellos.</h3>
+        <h2 class="Titulo fw-bold distancia">Lista de mapas</h2>
+        <section class="container">
+            <div class="row ">
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-bind.jpg" alt="BindValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50 ">Bind es un mapa ambientado en una ciudad arabe. Lo mas interesante es que es el unico que posee dos portales de teletrasporte unidireccional con los que movernos rapidamente entre ubicaciones.</p>
+        <div>
+                <ul class="h5 white">
+                    <li>si sos atacante, cuidado con apresurarte hacia la zona <span>ventana de B y Juca</span> suele ser un hervidero de balas.</li>
+                <li>Los pasillos de <span>Lampara A</span> pueden ser un buen lugar para esconderse.</li>
+                <li>Usar los <span>teletransportes</span> suele ser una buena distraccion al colocar la bomba.</li>
+                </ul>
+            </div>
             </article>
-            <article>
-                <h3>Ascent</h3>
-                <img src="../fotos/mapa-ascent.png" alt="Ascent valo">
-                <p>Un campo abierto para pequeñas batallas de posicionamiento y desgaste dividen Ascenso en dos sitios.
-                    Puedes fortificar cada uno con puertas de bombas irreversibles; una vez puestas, tendrás que
-                    destruirlas
-                    o encontrar otra forma de pasar. Cede el menor territorio posible.</p>
-            </article>
-            <article>
-                <h3>Fracture</h3>
-                <img src="../fotos/mapa-fracture.png" alt="Fracture valo">
-                <p>Un centro de investigación ultrasecreto dividido por un experimento fallido de radianita. Con
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapaascent.png" alt="AscentValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Ascent es un mapa ambientado en Italia e inspirado en Venecia. Aunque en este caso se trata de una ciudad flotante con canales muy interesante, algunas paredes destructibles y puertas que se pueden abrir y cerrar.</p>
+                <div>
+                    <ul class="h5 white">
+                        <li>Las <span>calles son estrechas</span>, asi que es importante que cada miembro del equipo ocupe un lugar y una posicion determinante.</li>
+                    <li> <span>Raze, Cypher y Jett</span> son agentes que dan muy buenos resultados en este mapa.</li>
+                    <li>No hay que olvidarse de <span>cubrir</span> medio, ya que si lo descuidamos puede jugarnos en contra.</li>
+                    </ul>
+                </div>
+                </article>
+    <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-fracture.png" alt="FractureValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Un centro de investigación dividido por un experimento fallido de radianita. Con
                     opciones de
-                    defensa tan divididas como el mismo mapa, la elección es tuya: enfrentar a los atacantes en su
+                    defensa tan divididas como el mismo mapa, enfrenta a los atacantes en su
                     propio
-                    territorio o cerrar las escotillas y resistir el asalto</p>
-            </article>
-            <article>
-                <h3>Haven</h3>
-                <img src="../fotos/mapa-haven.png" alt="Haven valo">
-                <p>Bajo un monasterio olvidado, emerge un clamor entre los agentes rivales que se enfrentan para
+                    territorio o cerrar las escotillas y resistir.</p>
+                    <div>
+                        <ul class="h5 white">
+                            <li>Es de gran ayuda utilizar <span>las cuerdas</span> para ir de un lado al otro y asi ahorrar tiempo.</li>
+                        <li>Al ser un mapa grande es muy bueno para <span>lurkear</span>.</li>
+                        <li>Al tener solo dos sites es <span>importante</span> que te resguardes con la defensa.</li>
+                        </ul>
+                    </div>
+                </article>
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-haven.png" alt="HavenValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Bajo un monasterio, emerge un clamor entre los agentes que se enfrentan para
                     controlar
                     tres sitios. Hay más territorio por controlar, pero los defensores pueden usar el terreno adicional
                     para
                     realizar ataques agresivos.</p>
-            </article>
-            <article>
-                <h3>Icebox</h3>
-                <img src="../fotos/mapa-icebox.png" alt="Icebox valo">
-                <p>Tu próximo campo de batalla es un sitio de excavación secreto de Kingdom en algún lugar del ártico.
+                    <div>
+                        <ul class="h5 white">
+                            <li><span>Corto A</span> es un excelente sitio para realizar emboscadas.</li>
+                        <li><span> Largo a y Largo c</span> son buenos lugares para defender con francotirador.</li>
+                        <li> <span>Sage, Phoenix y Breach</span> son agentes que dan buenos resultados en este mapa.</li>
+                        </ul>
+                    </div>
+                </article>
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-icebox.png" alt="IceboxValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Este campo de batalla es un sitio de excavación secreto de Kingdom en algún lugar del ártico.
                     Los
-                    dos sitios para plantar están protegidos tanto por nieve como por metal, y no es fácil acceder a
+                    dos sitios para plantar están protegidos tanto por nieve y  metal, y no es fácil acceder a
                     ellos
-                    de forma horizontal. Aprovecha las tirolesas y nunca te verán venir.</p>
-            </article>
-            <article>
-                <h3>Pearl</h3>
-                <img src="../fotos/mapa-pearl.png" alt="Pearl valo">
-                <p>Los atacantes avanzan hacia los defensores en este mapa de dos sitios, ambientado en una ciudad
+                    de forma horizontal. Aprovecha las tirolezas.</p>
+                    <div>
+                        <ul class="h5 white">
+                            <li>En la <span>Zona A</span> hay un monton de lugares para atacar y defender debes prestar mucha atencion.</li>
+                        <li>El <span> Area central</span> del mapa es un buen lugar para que los atacantes avancen.</li>
+                        <li> <span>Jett, Omen y Raze</span> son agentes que dan buenos resultados en este mapa.</li>
+                        </ul>
+                    </div>
+                </article>
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-pearl.png" alt="PearlValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Los atacantes avanzan hacia los defensores en este mapa, ambientado en una ciudad
                     submarina. Pearl es un mapa enfocado en el entorno, sin mecánicas. Lleva la batalla hacia un Medio
-                    compacto o a zonas más extendidas en nuestro primer mapa en la Tierra Omega.</p>
-            </article>
-            <article>
-                <h3>Split</h3>
-                <img src="../fotos/mapa-split.png" alt="Split valo">
-                <p>Si quieres ir lejos, debes subir. Un par de sitios divididos por un centro elevado permite un
-                    movimiento
-                    rápido por medio de dos ascensores de cuerda. Cada sitio cuenta con una gran torre vital para el
-                    control. Recuerda mirar arriba antes de que todo vuele por los aires.</p>
-            </article>
-            <article>
-                <h3>Lotus</h3>
-                <img src="../fotos/mapa-lotus.jpg" alt="Lotus valo">
-                <p>Una misteriosa estructura cuyos muros resguardan un conducto astral irradia poder ancestral. Inmensas
-                    y
-                    monolíticas puertas brindan una variedad de oportunidades de movimiento y abren el camino a tres
-                    misteriosos sitios. Lotus es un mapa con tres zonas de colocación de la Spike, con pasillos que
-                    entrelazan cada una de ellas.
-                    La conveniente ubicación de los pasillos y pasadizos permite que las rotaciones sean rápidas y
-                    sencillas.</p>
-            </article>
+                    compacto o a zonas más extendidas.</p>
+                    <div>
+                        <ul class="h5 white">
+                            <li>Los sitios de la <span>SPIKE</span> son bastantes extensos asegurate de estar listo para atacar.</li>
+                        <li>Al ser un mapa grande es muy bueno para <span>lurkear</span></li>
+                        <li> <span>Sova y Fade</span> son agentes que dan buenos resultados en este mapa.</li>
+                        </ul>
+                    </div>
+                </article>
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-split.png" alt="SplitValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Un terreno abierto para las batallas por posicionamiento y de desgaste divide Ascent en dos sitios, ambos sitios se pueden fortificar con puertas que aun asi son destructibles.</p>
+                    <div>
+                        <ul class="h5 white">
+                            <li><span>Main A y Main B</span> son puntos de entrada cruciales para los atacantes.</li>
+                        <li><span> Vigas B y Back B</span> ofrecen buenas posiciones para colocarse en defensa.</li>
+                        <li> <span>Sova, Brimstone y Viper</span> son agentes que dan buenos resultados en este mapa.</li>
+                        </ul>
+                    </div>
+                </article>
+            <article class="col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="../fotos/mapa-lotus.jpg" alt="LotusValo">
+                <p class="fw-bold bg-success p-2 bg-opacity-50">Una misteriosa estructura resguarda un conducto astral irradia poder ancestral. Inmensas y monolíticas puertas brindan una variedad de oportunidades de movimiento.</p>
+                    <div>
+                        <ul class="h5 white">
+                            <li>Lotus es un mapa que posee<span> puertas giratorias</span> .</li>
+                        <li>Este mapa es un sueño para los <span> franqueadores</span>.</li>
+                        <li> <span>Sova, Jett y Killjoy</span> son agentes que dan buenos resultados en este mapa.</li>
+                        </ul>
+                    </div>
+                </article>
+        </div>
         </section>
+    </section>
     </main>
     <footer>
+        <div class="logoabajo">
+            <img src="../fotos/logovalorant.png" alt="logovalo">
+        </div>
         <section>
-            <a href="../Index.html">Inicio</a>
-            <a href="./Agentes.html">Agentes</a>
-            <a href="./Armas.html">Armas</a>
-            <a href="./Mapas.html">Mapas</a>
-            <a href="./Noticias.html">Noticias</a>
+            <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger ">
+                <a class="btn link colorhover2" href="../index.html">Inicio</a>
+                <a class="btn link colorhover2" href="./agentes.html">Agentes</a>
+                <a class="btn link colorhover2" href="./armas.html">Armas</a>
+                <a class="btn link colorhover2" href="./mapas.html">Mapas</a>
+                <a class="btn link colorhover2" href="./noticias.html">Novedades</a>
+            </div>
         </section>
         <section>
-            <P>creadted by nicole bricka @2024 your company. all right reserved.</P>
+            <div class="direccion">
+                <P class="fw-bold ">Creadted by Nicole Bricka @2024 your company. All right reserved.</P>
+            </div>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

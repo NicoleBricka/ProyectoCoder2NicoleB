@@ -7,101 +7,142 @@
     <title>WikiValo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilos/Style.css">
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 
 <body>
     <header>
-        <h1>WikiValo</h1>
-        <nav>
-            <ul>
-                <li><a href="../Index.html">Inicio</a></li>
-                <li><a href="./Agentes.html">Agentes</a></li>
-                <li><a href="./Armas.html">Armas</a></li>
-                <li><a href="./Mapas.html">Mapas</a></li>
-                <li><a href="./Noticias.html">Noticias</a></li>
-            </ul>
-        </nav>
+        <div class="logoarriba">
+            <img src="../fotos/logovalorant.png" alt="logo" class="logoimg">
+            <h1 class="Titulo fw-bold">WikiValo</h1>
+        </div>
+        <div class="fw-bold border-danger ">
+            <nav class="container">
+                <div class="row ">
+                    <ul>
+                        <li class="nav-item link "><button type="button" class="btn btn-danger"><a
+                                    href="../index.html">Inicio</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./agentes.html">Agentes</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./armas.html">Armas</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./mapas.html">Mapas</a></button></li>
+                        <li class="nav-item link"><button type="button" class="btn btn-danger"><a
+                                    href="./noticias.html">Noticias</a></button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
-        <h2 class="Titulo">ARMAS</h2>
-        <p>Las armas se dividen en dos categorías, armas de mano y armas primarias. Las armas de mano consisten en
-            pistolas, mientras que las primarias incluyen SMG, escopetas, rifles, rifles de francotirador y
-            ametralladoras. Las armas tienen cantidades limitadas de munición pero vienen con cargadores de reserva.</p>
-        <section>
-            <h3 class="habilidad black">Lista de armas y sus caracteristicas</h3>
-            <article>
-                <h4>Classic</h4>
-                <img src="../fotos/arma-classic.png" alt="Classic valo">
-                <p>El modo de disparo principal es preciso si no se está en movimiento, y también dispone de un modo de
-                    disparo en ráfaga para los encuentros cuerpo a cuerpo.</p>
-            </article>
-            <article>
-                <h4>Bucky</h4>
-                <img src="../fotos/arma-Bucky.jpg" alt="Bucky valo">
-                <p>Pesada pero estable, el modo de disparo principal de la Bucky ayuda a vigilar esquinas en espacios
-                    reducidos y resulta ideal para cargar contra los enemigos cuerpo contra cuerpo.</p>
-            </article>
-            <article>
-                <h4>Spectre</h4>
-                <img src="../fotos/arma-spectre.jpg" alt="Spectre valo">
-                <p>Es un arma todoterreno con estadísticas de daño, velocidad de disparo y precisión muy equilibradas
-                    tanto
-                    a distancias cortas como medias.</p>
-            </article>
-            <article>
-                <h4>Phanton</h4>
-                <img src="../fotos/arma-phanton.jpg" alt="Phanton valo">
-                <p>El modo automático es perfecto para los encuentros en espacios reducidos, mientras que las ráfagas
-                    cortas
-                    son la opción indicada en cualquier otra situación. Es mucho más precisa si no se dispara en
-                    movimiento.
-                </p>
-            </article>
-            <article>
-                <h4>Vandal</h4>
-                <img src="../fotos/arma-vandal.png" alt="Vandal valo">
-                <p>Sin embargo, va perdiendo estabilidad con el tiempo. El Vandal inflige mucho daño a larga distancia y
-                    es
-                    ideal para aquellos que se centran en acertar tiros a la cabeza.</p>
-            </article>
-            <article>
-                <h4>Odin</h4>
-                <img src="../fotos/arma-odin.png" alt="Odin valo">
-                <p>Dispara de forma continua e inflige mucho daño con una estabilidad sorprendente. Cubrir de balas a
-                    los
-                    enemigos en espacios reducidos o recurrid al modo alternativo para convertirnos en una torreta
-                    andante.
-                </p>
-            </article>
-            <article>
-                <h4>Operator</h4>
-                <img src="../fotos/arma-op.jpg" alt="Operator valo">
-                <p>El Operator es un fusil de francotirador de cerrojo muy potente con zoom dual. Cuenta con una
-                    movilidad
-                    nula, pero sus balas derribarán a cualquiera de un solo impacto.</p>
-            </article>
-            <article>
-                <h4>Melee</h4>
-                <img src="../fotos/arma-cuchillo.jpg" alt="Cuchillo valo">
-                <P>Si no nos quedan balas, siempre podremos correr y el cuchillo justamente nos permite correr con
-                    rapidez,
-                    destruir objetos mucho más rápido y acabar con enemigos por la espalda de una sola cuchillada si
-                    usas el
-                    modo alternativo.</P>
-            </article>
+        <section class="container ">
+            <h2 class="Titulo distancia fw-bold">ARMAS</h2>
+            <h3 class=" fw-bold ">Las armas se dividen en dos categorías, armas de mano y armas primarias. Las
+                armas de mano consisten en
+                pistolas, mientras que las primarias incluyen SMG, escopetas, rifles, rifles de francotirador y
+                ametralladoras.</h3>
+            <h2 class="Titulo fw-bold distancia">Mejores armas del Valorant, tips y consejos. </h2>
+            <section class="container">
+                <div class="row ">
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armaclassic.png" alt="Classicvalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">El disparo principal es bastante precisos al estar quieto y tiene un modo
+                            de disparo alternativo para encuentros cercanos.</p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img src="../fotos/armaghost.png" alt="Ghostvalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">La Ghost es precisa y tiene un gran cargador en caso de que falles. Los
+                            objetivos distantes requieren ser controlados.</p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armasheriff.png" alt="Sheriffvalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">Sus poderosos disparos causan un retroceso pronunciado y dominar esta
+                            arma requiere dedicación.</p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armabucky.png" alt="Buckyvalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">Pesada pero estable, el modo de disparo principal de la Bucky ayuda a
+                            vigilar esquinas en espacios reducidos.
+                        </p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armaspectre.png" alt="Spectrevalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">Es un arma todoterreno con estadísticas de daño, velocidad de disparo y
+                            precisión a distintas distancias.</p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armabull.png" alt="Bulldogvalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">Esta dispone de una mira que permite disparar ráfagas
+                            cortas con precisión a media y larga distancia.
+                        </p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armaphanton.png" alt="Phantonvalo">
+                        <p class="fw-bold bg-success p-2 bg-opacity-50">La opción indicada en cualquier situación. Es mucho más precisa si
+                            no se dispara en movimiento.</p>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armavandal.png" alt="Vandalvalo">
+                        <P class="fw-bold bg-success p-2 bg-opacity-50">Inflige mucho daño a larga distancia y es ideal para aquellos
+                            que se centran en acertar tiros a la cabeza.</P>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armaoutlaw.png" alt="OutlawValo">
+                        <P class="fw-bold bg-success p-2 bg-opacity-50">Un fusil de francotirador de gran letalidad y alcance medio capaz de
+                            disparar dos veces sin perder precisión.</P>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armaoperator.png" alt="Operatorlvalo">
+                        <P class="fw-bold bg-success p-2 bg-opacity-50">El Operator es un fusil de francotirador de cerrojo muy potente con zoom
+                            dual. Sus balas derribarán de un impacto. </P>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armaodin.png" alt="Odinvalo">
+                        <P class="fw-bold bg-success p-2 bg-opacity-50">Dispara de forma continua e inflige mucho daño con una estabilidad
+                            sorprendente, es una torreta andante.</P>
+                    </article>
+                    <article class="col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="../fotos/armamelee.png" alt="Meleevalo">
+                        <P class="fw-bold bg-success p-2 bg-opacity-50">Si no te quedan balas, tenes tu navaja. Permite correr, destruir objetos y acabar con enemigos por la espalda.
+                        </P>
+                    </article>
+                    <h2 class="Titulo fw-bold distancia">Consejos y tips para elegir armas en Valorant</h2>
+                    <h3 class="fw-bold fondito">Por ultimo les dejamos una <span class="span2">pequeña lista de
+                            recomendaciones.</span></h3>
+                    <div>
+                        <ul class="h3 white ">
+                            <li>Es esencial que controles bien la <span>economía</span> en cada ronda.</li>
+                            <li>Gastar solo lo que necesites cuando lo necesites. <span>Si morís</span>, lo perderas
+                                todo.</li>
+                            <li>Si queres atacar a <span>largas distancias</span>, usar Vandal o Phantom.</li>
+                            <li>Si queréis provocar <span>grandes daños</span>, usar Operator o Sheriff.</li>
+                            <li>Para defender la <span>SPIKE</span> es recomendable usar Odin o Bucky.</li>
+                            <li>Y si queres matar <span>sigilosamente</span>, usar Spectre, Ghost y Phantom.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </section>
+
     </main>
     <footer>
+        <div class="logoabajo">
+            <img src="../fotos/logovalorant.png" alt="logovalo">
+        </div>
         <section>
-            <a href="../Index.html">Inicio</a>
-            <a href="./Agentes.html">Agentes</a>
-            <a href="./Armas.html">Armas</a>
-            <a href="./Mapas.html">Mapas</a>
-            <a href="./Noticias.html">Noticias</a>
+            <div class="h4 pb-2 mb-4 text-danger border-bottom border-danger ">
+                <a class="btn link colorhover2" href="../index.html">Inicio</a>
+                <a class="btn link colorhover2" href="./agentes.html">Agentes</a>
+                <a class="btn link colorhover2" href="./armas.html">Armas</a>
+                <a class="btn link colorhover2" href="./mapas.html">Mapas</a>
+                <a class="btn link colorhover2" href="./noticias.html">Novedades</a>
+            </div>
         </section>
         <section>
-            <P>creadted by nicole bricka @2024 your company. all right reserved.</P>
+            <div class="direccion">
+                <P class="fw-bold ">Creadted by Nicole Bricka @2024 your company. All right reserved.</P>
+            </div>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
