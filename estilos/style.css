@@ -54,7 +54,8 @@ background-size:cover;
 
 .imagen{
     height:35rem ;
-    width: 75rem
+    width: 75rem;
+    object-fit: cover ;
     ;
 }
 
